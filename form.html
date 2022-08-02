@@ -1,0 +1,60 @@
+<html>
+<style type="text/css">
+   TABLE {
+    width: 300px;
+    border: 1px solid black;
+	padding: 10px;
+   }
+   TH {
+    text-align: left;
+    background: black;
+    color: white;
+   }
+   .label {
+   display: block;
+   }
+  </style>
+<head>
+  <title>Форма заказа</title>
+ </head>
+ <body>
+ <form>
+  <table cellspacing="0">
+   <tbody border-collapse="collapse"><tr height="50px">
+    <td colspan="2" align="left">Форма заказа</td>
+   </tr>
+   <tr>
+   <td width="20%">
+    <label for="surname">Фамилия </label>
+   </td>
+   <td width="80%">
+    <input id="surname" name="surname" type="text" value="">
+   </td>
+  </tr>
+  <tr>
+   <td width="20%">
+    <label for="name">Имя </label>
+   </td>
+   <td width="80%">
+    <input id="name" name="name" type="text" value="">
+   </td>
+  </tr>
+  <tr>
+   <td width="20%">
+    <label for="gender">Пол </label>
+   </td>
+   <td width="80%">
+    М <input type="radio" name="gender" value="m">
+	Ж <input type="radio" name="gender" value="f">
+   </td>
+  </tr>
+  <tr>
+   <td align="center" width="20%">
+    <input type="submit" value="Заказать">
+   </td>
+  </tr>
+
+  </tbody>
+  </table>
+  </form>
+</body></html>
